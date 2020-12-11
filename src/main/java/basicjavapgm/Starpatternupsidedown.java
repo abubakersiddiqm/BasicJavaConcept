@@ -1,0 +1,16 @@
+package basicjavapgm;
+
+public class Starpatternupsidedown {
+
+	public static void main(String[] args) {
+     
+		int star=6;
+		for (int i = 0; i < star; i++) {
+			for (int j = star-i; j > 0; j--) {
+				System.out.print("* ");
+			}
+			System.out.println();
+		}
+	}
+
+}
